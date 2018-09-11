@@ -55,6 +55,8 @@ using System.Threading.Tasks;
                 //Test Print
                 Player.PrintStats();
                 Items testItem = DropTable.RandWeapon();
+
+                Person Parker = new Person("Parker");
             }
         }
     }
