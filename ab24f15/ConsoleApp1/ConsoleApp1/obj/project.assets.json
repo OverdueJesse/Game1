@@ -671,9 +671,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Jesse\\Source\\Repos\\Game13\\ab24f15\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj",
-      "projectName": "ConsoleApp1",
-      "projectPath": "C:\\Users\\Jesse\\Source\\Repos\\Game13\\ab24f15\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj",
+      "projectUniqueName": "C:\\Users\\Jesse\\Source\\Repos\\Game13\\ab24f15\\ConsoleApp1\\ConsoleApp1\\Game1.csproj",
+      "projectName": "Game1",
+      "projectPath": "C:\\Users\\Jesse\\Source\\Repos\\Game13\\ab24f15\\ConsoleApp1\\ConsoleApp1\\Game1.csproj",
       "packagesPath": "C:\\Users\\Jesse\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Jesse\\Source\\Repos\\Game13\\ab24f15\\ConsoleApp1\\ConsoleApp1\\obj\\",
       "projectStyle": "PackageReference",
