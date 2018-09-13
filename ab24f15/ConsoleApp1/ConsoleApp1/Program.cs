@@ -11,6 +11,15 @@ using System.Threading.Tasks;
             static void Main(string[] args)
             {
 
+                //Generating Items
+
+                Console.WriteLine("Loading...");
+
+                DropTable.fillTables();
+
+                Console.WriteLine("Done.");
+                Console.Clear();
+
                 // Initiation and Class Selection
 
                 Console.WriteLine("Welcome to my game!");
@@ -45,6 +54,9 @@ using System.Threading.Tasks;
                         ImSure = Console.ReadLine();
                         Console.WriteLine();
                     }
+
+                    Player.StatRoll();
+                    Player.StatAdd();
                 }
                 else
                 {

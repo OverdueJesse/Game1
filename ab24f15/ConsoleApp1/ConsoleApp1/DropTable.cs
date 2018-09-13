@@ -11,11 +11,6 @@ namespace Game1
         static Items[] commonDrops = new Items[12];
         static Items[] uncommonDrops = new Items[8];
         static Items[] rareDrops = new Items[4];
-
-        public DropTable()
-        {
-            fillTables();
-        }
         
 
         public static Items RandWeapon()
@@ -40,7 +35,7 @@ namespace Game1
             return tableElement;
         }
 
-        static void fillTables()
+        public static void fillTables()
         {
             Items sword0 = new Items(1, 1, 1);
             Items sword1 = new Items(1, 1, 1);
