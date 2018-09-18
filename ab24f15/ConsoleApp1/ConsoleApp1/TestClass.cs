@@ -16,7 +16,7 @@ namespace Game1
         public static void printName()
         {
             Console.WriteLine("My name is: {0}", name);
-            Console.WriteLine("yeet1");
+            Console.WriteLine("yeet");
 
         }
 
