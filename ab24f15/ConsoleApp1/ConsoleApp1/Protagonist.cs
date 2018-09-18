@@ -32,27 +32,45 @@ namespace Game1
             if (style.ToUpper() == "WIZARD")
             {
                 health = rng.Next(212, 276);
-                mana = rng.Next(186, 234);
+                mana = rng.Next(186, 215);
                 strength = rng.Next(6, 8);
                 intelligence = rng.Next(15, 19);
-                dexterity = rng.Next(11, 13);
+                dexterity = rng.Next(9, 11);
                 vitality = rng.Next(7, 11);
                 wisdom = rng.Next(13, 17);
             }
 
             else if (style.ToUpper() == "WARRIOR")
             {
-
+                health = rng.Next(302, 347);
+                mana = rng.Next(51, 109);
+                strength = rng.Next(16, 18);
+                intelligence = rng.Next(5, 7);
+                dexterity = rng.Next(10, 14);
+                vitality = rng.Next(12, 14);
+                wisdom = rng.Next(6, 9);
             }
 
             else if (style.ToUpper() == "ROGUE")
             {
-
+                health = rng.Next(225, 301);
+                mana = rng.Next(82, 127);
+                strength = rng.Next(9, 13);
+                intelligence = rng.Next(11, 15);
+                dexterity = rng.Next(15, 18);
+                vitality = rng.Next(8, 13);
+                wisdom = rng.Next(11, 15);
             }
 
             else //Archer
             {
-
+                health = rng.Next(183, 221);
+                mana = rng.Next(60, 96);
+                strength = rng.Next(11, 14);
+                intelligence = rng.Next(8, 12);
+                dexterity = rng.Next(16, 19);
+                vitality = rng.Next(6, 12);
+                wisdom = rng.Next(6, 11);
             }
         }
 

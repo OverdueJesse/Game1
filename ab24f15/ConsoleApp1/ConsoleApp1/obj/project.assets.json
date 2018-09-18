@@ -664,27 +664,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Jesse\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\": {},
+    "C:\\Users\\jguil\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Jesse\\Source\\Repos\\Game13\\ab24f15\\ConsoleApp1\\ConsoleApp1\\Game1.csproj",
+      "projectUniqueName": "C:\\Users\\jguil\\Source\\Repos\\Game1\\ab24f15\\ConsoleApp1\\ConsoleApp1\\Game1.csproj",
       "projectName": "Game1",
-      "projectPath": "C:\\Users\\Jesse\\Source\\Repos\\Game13\\ab24f15\\ConsoleApp1\\ConsoleApp1\\Game1.csproj",
-      "packagesPath": "C:\\Users\\Jesse\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Jesse\\Source\\Repos\\Game13\\ab24f15\\ConsoleApp1\\ConsoleApp1\\obj\\",
+      "projectPath": "C:\\Users\\jguil\\Source\\Repos\\Game1\\ab24f15\\ConsoleApp1\\ConsoleApp1\\Game1.csproj",
+      "packagesPath": "C:\\Users\\jguil\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\jguil\\Source\\Repos\\Game1\\ab24f15\\ConsoleApp1\\ConsoleApp1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Jesse\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
+        "C:\\Users\\jguil\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.0"
