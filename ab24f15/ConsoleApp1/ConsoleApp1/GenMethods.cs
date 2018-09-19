@@ -36,6 +36,11 @@ namespace Game1
             Console.WriteLine(question);
             string answer = Console.ReadLine();
 
+            if (answer.ToUpper() == "NO")
+            {
+                return false;
+            } 
+
             Console.WriteLine();
 
             Console.WriteLine("Are you sure?");
