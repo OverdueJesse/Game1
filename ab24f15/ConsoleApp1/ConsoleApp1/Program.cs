@@ -52,6 +52,9 @@ namespace Game1
             {
                 Player.EquipItem(testWeapon);
             }
+
+            Enemy testGoblin = new Enemy(100, 100, 12, 12, 12, 12, 12, "Morty");
+            testGoblin.PrintStats();
         }
     }
 }

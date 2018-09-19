@@ -152,7 +152,7 @@ namespace Game1
         public void PrintStats()
         {
             Console.WriteLine("Your Hp is:   {0}", health);
-            Console.WriteLine("Your mana is: {0}", mana);
+            Console.WriteLine("Your mp is:   {0}", mana);
             Console.WriteLine("Your str is:  {0}", strength);
             Console.WriteLine("Your int is:  {0}", intelligence);
             Console.WriteLine("Your dex is:  {0}", dexterity);
