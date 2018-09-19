@@ -25,6 +25,70 @@ namespace Game1
             style = classe;
             name = nombre;
         }
+        
+        public static Protagonist GenerateProtag(string nombre)
+        {
+            Console.WriteLine("Select your class:\n Wizard\n Warrior\n Rogue\n Archer");
+            Console.WriteLine();
+            string classe = Console.ReadLine();
+
+            if (classe.ToUpper() == "WIZARD")
+            {
+                if (GenMethods.AreYouSureBool() == true)
+                {
+                    Console.WriteLine();
+                    Console.WriteLine("Sick");
+                }
+                else
+                {
+                    GenerateProtag(nombre);
+                }
+            }
+            else if (classe.ToUpper() == "WARRIOR")
+            {
+                if (GenMethods.AreYouSureBool() == true)
+                {
+                    Console.WriteLine();
+                    Console.WriteLine("Sick");
+                }
+                else
+                {
+                    GenerateProtag(nombre);
+                }
+            }
+            else if (classe.ToUpper() == "ROGUE")
+            {
+                if (GenMethods.AreYouSureBool() == true)
+                {
+                    Console.WriteLine();
+                    Console.WriteLine("Sick");
+                }
+                else
+                {
+                    GenerateProtag(nombre);
+                }
+            }
+            else if (classe.ToUpper() == "ARCHER")
+            {
+                if (GenMethods.AreYouSureBool() == true)
+                {
+                    Console.WriteLine();
+                    Console.WriteLine("Sick");
+                }
+                else
+                {
+                    GenerateProtag(nombre);
+                }
+            }
+            else
+            {
+                Console.WriteLine();
+                Console.WriteLine("Invalid class");
+                GenerateProtag(nombre);
+            }
+
+            return new Protagonist(nombre, classe);
+        }
 
         public void StatRoll()
         {
@@ -90,6 +154,7 @@ namespace Game1
             Console.WriteLine("Your vit is:  {0}", vitality);
             Console.WriteLine("Your wis is:  {0}", wisdom);
             Console.WriteLine("You have      {0} xp", xp);
+            Console.WriteLine();
         }
     }
 }

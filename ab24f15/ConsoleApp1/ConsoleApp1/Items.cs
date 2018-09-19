@@ -6,10 +6,10 @@ namespace Game1
 {
     class Items
     {
-
-        static int damage;
-        static int accuracy;
-        static int CritChance;
+        string name;
+        int damage;
+        int accuracy;
+        int CritChance;
 
         public Items(int dmg, int acc, int crit)
         {
@@ -18,7 +18,7 @@ namespace Game1
             CritChance = crit;
         }
 
-        public static void PrintItemStats()
+        public void PrintItemStats()
         {  
             Console.WriteLine("Damage:          {0}", damage);
             Console.WriteLine("Accuracy:        {0}", accuracy);
