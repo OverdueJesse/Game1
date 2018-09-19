@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Game1
 {
-    public class Protagonist
+    class Protagonist
     {
         static Random rng = new Random();
 
@@ -20,6 +20,9 @@ namespace Game1
         public double vitality;
         public double wisdom;
 
+        //Inventory[0] = weapon, [1] = armor, [2] = helmet
+        Items[] Inventory = new Items[3];
+
         public Protagonist(string nombre, string classe)
         {
             style = classe;
@@ -28,9 +31,11 @@ namespace Game1
         
         public static Protagonist GenerateProtag(string nombre)
         {
+            Console.WriteLine();
             Console.WriteLine("Select your class:\n Wizard\n Warrior\n Rogue\n Archer");
             Console.WriteLine();
             string classe = Console.ReadLine();
+            Console.WriteLine();
 
             if (classe.ToUpper() == "WIZARD")
             {
@@ -155,6 +160,27 @@ namespace Game1
             Console.WriteLine("Your wis is:  {0}", wisdom);
             Console.WriteLine("You have      {0} xp", xp);
             Console.WriteLine();
+        }
+
+        public void EquipItem(Items desiredItem)
+        {
+            //Inventory[0] = Weapon, [1] = Body, [2] = Head
+
+            if (desiredItem.GetSlot() == "Weapon")
+            {
+                Inventory[0] = desiredItem;
+                Console.WriteLine("Weapon Equipped!");
+            }
+            else if (desiredItem.GetSlot() == "Body")
+            {
+                Inventory[1] = desiredItem;
+                Console.WriteLine("Armor Equipped!");
+            }
+            else if (desiredItem.GetSlot() == "Head")
+            {
+                Inventory[2] = desiredItem;
+                Console.WriteLine("Helmet Equipped");
+            }
         }
     }
 }

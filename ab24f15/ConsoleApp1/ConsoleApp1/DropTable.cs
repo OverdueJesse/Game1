@@ -21,7 +21,7 @@ namespace Game1
 
             if (tableDeterminant <= 5)
             {
-                tableElement = rareDrops[rng.Next(0, 12)];
+                tableElement = rareDrops[rng.Next(0, 11)];
             }
             else if (tableDeterminant <= 15)
             {
@@ -29,7 +29,7 @@ namespace Game1
             }
             else
             {
-                tableElement = commonDrops[rng.Next(0, 4)];
+                tableElement = commonDrops[rng.Next(0, 3)];
             }
 
             return tableElement;
@@ -37,33 +37,33 @@ namespace Game1
 
         public static void fillTables()
         {
-            Items sword0 = new Items(1, 1, 1);
-            Items sword1 = new Items(2, 2, 2);
-            Items sword2 = new Items(3, 3, 3);
-            Items sword3 = new Items(4, 4, 4);
-            Items sword4 = new Items(5, 5, 5);
-            Items sword5 = new Items(6, 6, 6);
+            Items sword0 = new Items(1, 1, 1, "sword0", "Weapon");
+            Items sword1 = new Items(2, 2, 2, "sword1", "Weapon");
+            Items sword2 = new Items(3, 3, 3, "sword2", "Weapon");
+            Items sword3 = new Items(4, 4, 4, "sword3", "Weapon");
+            Items sword4 = new Items(5, 5, 5, "sword4", "Weapon");
+            Items sword5 = new Items(6, 6, 6, "sword5", "Weapon");
 
-            Items dagger0 = new Items(1, 1, 1);
-            Items dagger1 = new Items(2, 2, 2);
-            Items dagger2 = new Items(3, 3, 3);
-            Items dagger3 = new Items(4, 4, 4);
-            Items dagger4 = new Items(5, 5, 5);
-            Items dagger5 = new Items(6, 6, 6);
+            Items dagger0 = new Items(1, 1, 1, "dagger0", "Weapon");
+            Items dagger1 = new Items(2, 2, 2, "dagger1", "Weapon");
+            Items dagger2 = new Items(3, 3, 3, "dagger2", "Weapon");
+            Items dagger3 = new Items(4, 4, 4, "dagger3", "Weapon");
+            Items dagger4 = new Items(5, 5, 5, "dagger4", "Weapon");
+            Items dagger5 = new Items(6, 6, 6, "dagger5", "Weapon");
 
-            Items bow0 = new Items(1, 1, 1);
-            Items bow1 = new Items(2, 2, 2);
-            Items bow2 = new Items(3, 3, 3);
-            Items bow3 = new Items(4, 4, 4);
-            Items bow4 = new Items(5, 5, 5);
-            Items bow5 = new Items(6, 6, 6);
+            Items bow0 = new Items(1, 1, 1, "bow0", "Weapon");
+            Items bow1 = new Items(2, 2, 2, "bow1", "Weapon");
+            Items bow2 = new Items(3, 3, 3, "bow2", "Weapon");
+            Items bow3 = new Items(4, 4, 4, "bow3", "Weapon");
+            Items bow4 = new Items(5, 5, 5, "bow4", "Weapon");
+            Items bow5 = new Items(6, 6, 6, "bow5", "Weapon");
 
-            Items staff0 = new Items(1, 1, 1);
-            Items staff1 = new Items(2, 2, 2);
-            Items staff2 = new Items(3, 3, 3);
-            Items staff3 = new Items(4, 4, 4);
-            Items staff4 = new Items(5, 5, 5);
-            Items staff5 = new Items(6, 6, 6);
+            Items staff0 = new Items(1, 1, 1, "staff0", "Weapon");
+            Items staff1 = new Items(2, 2, 2, "staff1", "Weapon");
+            Items staff2 = new Items(3, 3, 3, "staff2", "Weapon");
+            Items staff3 = new Items(4, 4, 4, "staff3", "Weapon");
+            Items staff4 = new Items(5, 5, 5, "staff4", "Weapon");
+            Items staff5 = new Items(6, 6, 6, "staff5", "Weapon");
 
             //Common Drops
             commonDrops[0] = sword0;

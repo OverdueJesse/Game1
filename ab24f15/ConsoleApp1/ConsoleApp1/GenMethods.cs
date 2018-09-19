@@ -28,9 +28,6 @@ namespace Game1
                 Console.WriteLine("Are you sure?");
                 amISure = Console.ReadLine();
             }
-
-            Console.Clear();
-
             return answer;
         }
 
@@ -67,6 +64,7 @@ namespace Game1
             Console.WriteLine();
             Console.WriteLine("Are you sure?");
             string amISure = Console.ReadLine();
+            Console.WriteLine();
 
             if (amISure.ToUpper() == "YES")
             {
