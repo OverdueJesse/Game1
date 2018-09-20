@@ -10,11 +10,13 @@ namespace Game1
         {
             Console.WriteLine(question);
             string answer = Console.ReadLine();
+            GameCommands.CheckCommand(answer);
 
             Console.WriteLine();
 
             Console.WriteLine("Are you sure?");
             string amISure = Console.ReadLine();
+            GameCommands.CheckCommand(amISure);
 
             while (amISure.ToUpper() != "YES")
             {
@@ -22,11 +24,13 @@ namespace Game1
 
                 Console.WriteLine(question);
                 answer = Console.ReadLine();
+                GameCommands.CheckCommand(answer);
 
                 Console.WriteLine();
 
                 Console.WriteLine("Are you sure?");
                 amISure = Console.ReadLine();
+                GameCommands.CheckCommand(amISure);
             }
             return answer;
         }
@@ -35,6 +39,7 @@ namespace Game1
         {
             Console.WriteLine(question);
             string answer = Console.ReadLine();
+            GameCommands.CheckCommand(answer);
 
             if (answer.ToUpper() == "NO")
             {
@@ -45,6 +50,7 @@ namespace Game1
 
             Console.WriteLine("Are you sure?");
             string amISure = Console.ReadLine();
+            GameCommands.CheckCommand(amISure);
 
             while (amISure.ToUpper() != "YES")
             {
@@ -52,11 +58,13 @@ namespace Game1
 
                 Console.WriteLine(question);
                 answer = Console.ReadLine();
+                GameCommands.CheckCommand(answer);
 
                 Console.WriteLine();
 
                 Console.WriteLine("Are you sure?");
                 amISure = Console.ReadLine();
+                GameCommands.CheckCommand(amISure);
             }
 
             Console.Clear();
@@ -69,6 +77,7 @@ namespace Game1
             Console.WriteLine();
             Console.WriteLine("Are you sure?");
             string amISure = Console.ReadLine();
+            GameCommands.CheckCommand(amISure);
             Console.WriteLine();
 
             if (amISure.ToUpper() == "YES")
